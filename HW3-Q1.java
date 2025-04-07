@@ -1,3 +1,10 @@
+import java.util.Scanner;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Random;
+import java.util.Vector;
+
+
 public class StudentAccount {
     private String username;
     private String password;
