@@ -14,7 +14,7 @@ public class StudentAccount {
         this.password = password;
     }
 
-    public boolean validatePassword(String password) {
+    public void validatePassword(String password) {
         if (password.length() < 8 || password.length() < 32) {
             System.out.println("The password is invalid.");
         }
